@@ -1,0 +1,15 @@
+Hello guys!
+
+I did basic search bar  in this project 
+
+You can do javascript exercises with such simple things.
+
+It is very important to pay attention to the use of queryselector and getelements commands.
+
+If you have different project ideas, please share them with me!
+
+Cevdet Berkay Sarıalioğlu , berkaysarialioglu@gmail.com !
+
+And dont forget this project isn't responsive :(
+
+Have a nice programming !!!

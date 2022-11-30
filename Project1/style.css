@@ -1,0 +1,66 @@
+
+body{
+    min-height:100vh;
+    background:#efeff2;
+    display:flex;/*Flexbox using*/
+    justify-content: center;
+    align-items: center;
+    /*The reason why I don't use css grid is that flexbox is easier for me in this project.*/
+}
+.calculator{
+    width:300px;
+    height:550px;
+    box-shadow: 4px 4px 30px rgb(0,0,0,0.3);
+    background:#22252D;
+    overflow: hidden;
+}
+form input{
+    width:90%;
+    height:150px;
+    border:none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding:1rem;
+    color:#fff;
+    background: #000;
+    text-align:right;
+    pointer-events: none;
+}
+.buttons
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding:20px;
+}
+button
+{
+    flex: 0 0 22%;
+    margin:5px 0px;
+    border:1px solid #000;
+    width:60px;
+    height:52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.btn-pink
+{
+    background-color: pink;
+    color:#fff;
+
+}
+.btn-lemon
+{
+    background-color: lemonchiffon;
+    color:black;
+}
+.btn-equal
+{
+    background-color: green;
+}
+.btn-clear
+{
+    background-color: red;
+}
